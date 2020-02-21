@@ -1,0 +1,8 @@
+include ../title/title
+
+mixin skills({ title, list })
+    section(class="skills")
+        +title(title)(class="skills__title")
+        ul(class="skills__list")
+            each item in list 
+                li(class="skills__item")= item.title

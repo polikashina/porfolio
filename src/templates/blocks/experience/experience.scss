@@ -1,0 +1,57 @@
+@import "../../../styles/colors.scss";
+
+.experience {
+    padding: 25px 40px;
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__project {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid $color-grey;
+        display: flex;
+        overflow: hidden;
+    }
+
+    &__left-column {
+        display: flex;
+        flex: 0 0 200px;
+        flex-direction: column;
+        margin-right: 40px;
+    }
+
+    &__right-column {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    &__position {
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    &__period {
+        font-size: 14px;
+        color: $color-darkgrey;
+    }
+
+    &__project-title {
+        font-weight: bold;
+        color: $color-darkgrey;
+        margin-bottom: 8px;
+    }
+
+    &__company {
+        color: $color-darkgrey;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    &__stack {
+        font-size: 12px;
+    }
+}

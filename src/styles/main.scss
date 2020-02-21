@@ -1,0 +1,8 @@
+@import "colors.scss";
+@import "reset.scss";
+
+body {
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 400;
+    color: $color-bunker;
+}

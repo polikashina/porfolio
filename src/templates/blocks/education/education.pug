@@ -1,0 +1,10 @@
+include ../title/title
+
+mixin education(education)
+    section(class="education")
+        +title(education.title)(class="education__title")
+        div(class="education__university")
+            span(class="education__specialty")= education.specialty
+            span(class="education__university-title")= education.university
+            span(class="education__faculty")= education.faculty
+            span(class="education__period")= `${education.dateFrom} - ${education.dateTo}`

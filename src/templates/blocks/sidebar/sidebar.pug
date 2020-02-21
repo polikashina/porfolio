@@ -1,0 +1,10 @@
+mixin sidebar({ description, socialLinks, navigation })
+    section(class="sidebar")&attributes(attributes)
+        div(class="sidebar__avatar")
+            img(src="./avatar.png", alt="Avatar" class="sidebar__avatar-image")
+        p(class="sidebar__description") #{description}
+        ul(class="sidebar__social")
+            each item in socialLinks
+                li(class="sidebar__social-link")
+                    a(href= item.url target="_blank" arai-label= item.title)
+                        svg(src= item.icon)

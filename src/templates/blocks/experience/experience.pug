@@ -1,0 +1,15 @@
+include ../title/title
+
+mixin experience({ title, projects })
+    section(class="experience")
+        +title(title)(class="experience__title")
+        ul
+            each item in projects.reverse()
+                li(class="experience__project")
+                    div(class="experience__left-column")
+                        span(class="experience__position")= item.position
+                        span(class="experience__period")= `${item.dateFrom} - ${item.dateTo}`
+                    div(class="experience__right-column")
+                        span(class="experience__project-title")= item.project
+                        span(class="experience__company")= item.company
+                        span(class="experience__stack")= item.stack

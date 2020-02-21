@@ -1,0 +1,26 @@
+@import "../../../styles/colors.scss";
+
+.skills {
+    padding: 25px 40px;
+    overflow: hidden;
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        padding: 8px 10px;
+        border-radius: 5px;
+        background-color: $color-grey;
+        margin-bottom: 10px;
+        font-size: 16px;
+        &:not(:last-of-type) {
+            margin-right: 10px;
+        }
+    }
+}
