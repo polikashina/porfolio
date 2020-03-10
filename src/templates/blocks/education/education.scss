@@ -1,19 +1,17 @@
-@import "../../../styles/colors.scss";
+@import "../../../styles/variables.scss";
 
 .education {
-    padding: 25px 40px;
-
     &__title {
-        margin-bottom: 20px;
+        margin-bottom: 18px;
     }
 
     &__university {
-        padding-bottom: 20px;
-        margin-bottom: 30px;
-        border-bottom: 1px solid $color-grey;
+        padding-bottom: 16px;
+        margin-bottom: 20px;
         display: flex;
         flex-direction: column;
         overflow: hidden;
+        font-size: 15px;
         color: $color-darkgrey;
     }
 
@@ -25,16 +23,35 @@
 
     &__university-title {
         font-weight: bold;
-        font-size: 14px;
         margin-bottom: 8px;
     }
 
     &__faculty {
-        font-size: 14px;
+        font-size: 11px;
         margin-bottom: 8px;
     }
 
     &__period {
-        font-size: 14px;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: $tablet) {
+    .education {
+        &__title {
+            margin-bottom: 20px;
+        }
+
+        &__university-title {
+            font-size: 14px;
+        }
+    
+        &__faculty {
+            font-size: 14px;
+        }
+    
+        &__period {
+            font-size: 14px;
+        }
     }
 }

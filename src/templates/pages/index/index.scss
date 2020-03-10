@@ -1,19 +1,55 @@
+@import "../../../styles/variables.scss";
+
 .main {
-    width: 1000px;
-    min-height: 100vh;
-    margin: 0 auto;
     display: flex;
-    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.5);
+    flex-direction: column;
     overflow: hidden;
-    
-    &__sidebar {
-        flex: 280px 0 0;
-    }
 
     &__content {
         display: flex;
         flex-direction: column;
         flex-grow: 1;
         background-color: white;
+    }
+
+    &__container {
+        padding: 16px;
+    }
+
+    &__skills {
+        margin-bottom: 16px;
+    }
+}
+
+@media (min-width: $tablet) {
+    .main {
+        width: 100%;
+        min-height: 100vh;
+        flex-direction: row;
+        
+        &__sidebar {
+            flex: 240px 0 0;
+        }
+
+        &__container {
+            padding: 25px;
+        }
+    }
+}
+
+@media (min-width: $desktop) {
+    .main {
+        width: $desktop;
+        max-width: $desktop;
+        margin: 0 auto;
+        box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.5);
+        
+        &__sidebar {
+            flex: 280px 0 0;
+        }
+
+        &__container {
+            padding: 25px 40px;
+        }
     }
 }

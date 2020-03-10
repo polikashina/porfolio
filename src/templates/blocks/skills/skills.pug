@@ -1,7 +1,7 @@
 include ../title/title
 
 mixin skills({ title, list })
-    section(class="skills")
+    section(class="skills")&attributes(attributes)
         +title(title)(class="skills__title")
         ul(class="skills__list")
             each item in list 

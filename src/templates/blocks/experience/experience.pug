@@ -6,10 +6,10 @@ mixin experience({ title, projects })
         ul
             each item in projects.reverse()
                 li(class="experience__project")
-                    div(class="experience__left-column")
+                    div(class="experience__info")
                         span(class="experience__position")= item.position
                         span(class="experience__period")= `${item.dateFrom} - ${item.dateTo}`
-                    div(class="experience__right-column")
+                    div(class="experience__details")
                         span(class="experience__project-title")= item.project
                         span(class="experience__company")= item.company
                         span(class="experience__stack")= item.stack

@@ -1,57 +1,105 @@
-@import "../../../styles/colors.scss";
+@import "../../../styles/variables.scss";
 
 .experience {
-    padding: 25px 40px;
-
     &__title {
-        margin-bottom: 20px;
+        margin-bottom: 18px;
     }
 
     &__project {
-        padding-bottom: 20px;
-        margin-bottom: 30px;
+        padding-bottom: 16px;
+        margin-bottom: 20px;
         border-bottom: 1px solid $color-grey;
         display: flex;
+        flex-direction: column;
         overflow: hidden;
+        font-size: 15px;
     }
 
-    &__left-column {
+    &__info {
         display: flex;
-        flex: 0 0 200px;
         flex-direction: column;
-        margin-right: 40px;
     }
 
-    &__right-column {
+    &__details {
         display: flex;
-        flex-grow: 1;
         flex-direction: column;
-        text-align: right;
     }
 
     &__position {
         font-weight: bold;
-        margin-bottom: 8px;
+        margin-bottom: 2px;
     }
 
     &__period {
-        font-size: 14px;
+        font-size: 11px;
         color: $color-darkgrey;
+        margin-bottom: 8px;
     }
 
     &__project-title {
         font-weight: bold;
         color: $color-darkgrey;
-        margin-bottom: 8px;
+        margin-bottom: 2px;
     }
 
     &__company {
         color: $color-darkgrey;
-        font-size: 14px;
-        margin-bottom: 8px;
+        font-size: 11px;
     }
 
     &__stack {
-        font-size: 12px;
+        font-size: 13px;
+        margin-top: 8px;
+    }
+}
+
+@media (min-width: $phone) {
+    .experience {
+        &__project {
+            flex-direction: row;
+        }
+
+        &__info {
+            flex: 0 0 200px;
+        }
+
+        &__details {
+            flex-grow: 1;
+            text-align: right;
+        }
+    }
+}
+
+@media (min-width: $tablet) {
+    .experience {
+        &__title {
+            margin-bottom: 20px;
+        }
+
+        &__project {
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        &__position {
+            margin-bottom: 8px;
+        }
+    
+        &__period {
+            font-size: 14px;
+        }
+    
+        &__project-title {
+            margin-bottom: 8px;
+        }
+    
+        &__company {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+    
+        &__stack {
+            font-size: 12px;
+        }
     }
 }

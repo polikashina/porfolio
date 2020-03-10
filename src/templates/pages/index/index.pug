@@ -10,7 +10,8 @@ block content
         +sidebar({ description, socialLinks, education })(class="main__sidebar")
         div(class="main__content")
             +header({name: "Olga Polikashina", profession: "Frontend Developer"})
-            +skills(skills)
-            +experience(experience)
-            +education(education)
+            div(class="main__container")
+                +skills(skills)(class="main__skills")
+                +experience(experience)
+                +education(education)
         

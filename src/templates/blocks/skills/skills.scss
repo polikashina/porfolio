@@ -1,7 +1,6 @@
-@import "../../../styles/colors.scss";
+@import "../../../styles/variables.scss";
 
 .skills {
-    padding: 25px 40px;
     overflow: hidden;
 
     &__title {
@@ -14,13 +13,24 @@
     }
 
     &__item {
-        padding: 8px 10px;
-        border-radius: 5px;
+        padding: 6px 8px;
+        border-radius: 4px;
         background-color: $color-grey;
         margin-bottom: 10px;
-        font-size: 16px;
+        font-size: 15px;
+
         &:not(:last-of-type) {
             margin-right: 10px;
+        }
+    }
+}
+
+@media (min-width: $phone) {
+    .skills {
+        &__item {
+            padding: 8px 10px;
+            border-radius: 5px;
+            font-size: 16px;
         }
     }
 }
