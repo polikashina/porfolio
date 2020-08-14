@@ -1,14 +1,16 @@
 {
-  "name": "porfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build",
+    "run": "npm run && node server"
   },
   "author": "o.polikashina",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "gulp": "^4.0.2",
     "pug": "^2.0.4"
   },

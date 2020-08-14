@@ -1,149 +1,158 @@
 {
-    "description": "Hi! Welcome to my website",
-    "socialLinks": [
-        {
-            "title": "Facebook",
-            "url": "https://www.facebook.com/olga.polikashina",
-            "icon": "facebook.svg"
-        },
-        {
-            "title": "Vkontakte",
-            "url": "https://vk.com/o.polikashina",
-            "icon": "vk.svg"
-        },
-        {
-            "title": "E-mail",
-            "url": "mailto:olga.polikashina@gmail.com",
-            "icon": "email.svg"
-        },
-        {
-            "title": "GitHub",
-            "url": "https://github.com/polikashina",
-            "icon": "github.svg"
-        }
-    ],
-    "experience": {
-        "title": "Experience",
-        "projects": [
-            {
-                "project": "Modcloth",
-                "company": "PushOk Software",
-                "link": "https://www.modcloth.com/",
-                "position": "Frontend Developer",
-                "stack": "Backbone.js, Handlebars, Less, Grunt",
-                "description": "",
-                "dateFrom": "04/2014",
-                "dateTo": "10/2014"
-            },
-            {
-                "project": "PV Inova",
-                "company": "PushOk Software",
-                "position": "Full Stack Developer",
-                "stack": "Backbone.js, Handlebars, Less, Grunt, Node.js, MongoDB",
-                "description": "",
-                "dateFrom": "10/2014",
-                "dateTo": "09/2016"
-            },
-            {
-                "project": "NDA protected project",
-                "isNDA": true,
-                "company": "Amigoweb",
-                "position": "HTML/CSS Developer",
-                "stack": "Vue, Nuxt.js, Stylus",
-                "description": "",
-                "dateFrom": "04/2019",
-                "dateTo": "07/2019"
-            },
-            {
-                "project": "NDA protected project",
-                "isNDA": true,
-                "company": "Amigoweb",
-                "position": "HTML/CSS Developer",
-                "stack": "React, Styled components",
-                "description": "",
-                "dateFrom": "07/2019",
-                "dateTo": "09/2019"
-            },
-            {
-                "project": "NDA protected project",
-                "isNDA": true,
-                "company": "CSSSR",
-                "position": "HTML/CSS Developer",
-                "stack": "Vue, SCSS",
-                "description": "",
-                "dateFrom": "09/2019",
-                "dateTo": "10/2019"
-            },
-            {
-                "project": "NDA protected project",
-                "isNDA": true,
-                "company": "CSSSR",
-                "position": "HTML/CSS Developer",
-                "stack": "React, Storybook, SCSS",
-                "description": "",
-                "dateFrom": "10/2019",
-                "dateTo": "12/2019"
-            },
-            {
-                "project": "NDA protected project",
-                "isNDA": true,
-                "company": "CSSSR",
-                "position": "Frontend Developer",
-                "stack": "React, Redux, Storybook, SCSS, Jest",
-                "description": "",
-                "dateFrom": "12/2019",
-                "dateTo": "02/2020"
-            },
-            {
-                "project": "HTML, CSS, JS online course",
-                "company": "HTMLAcademy",
-                "position": "Tutor",
-                "dateFrom": "11/2018",
-                "dateTo": "current time"
-            }
-        ]
+  "meta": {
+    "title": "Olga Polikashina",
+    "description": "Frontend developer"
+  },
+  "description": "Hi! Welcome to my website",
+  "socialLinks": [
+    {
+      "title": "Facebook",
+      "url": "https://www.facebook.com/olga.polikashina",
+      "icon": "facebook.svg"
     },
-    "education": {
-        "title": "Education",
-        "university": "Ryazan State Radio Engineering University",
-        "faculty": "Faculty of Computer Engineering",
-        "specialty": "Informatics Specialist and Economist",
-        "dateFrom": "2009",
-        "dateTo": "2014"
+    {
+      "title": "Vkontakte",
+      "url": "https://vk.com/o.polikashina",
+      "icon": "vk.svg"
     },
-    "skills": {
-        "title": "Skills",
-        "list": [
-            {
-                "title": "HTML"
-            },
-            {
-                "title": "CSS"
-            },
-            {
-                "title": "JavaScript"
-            },
-            {
-                "title": "SASS/SCSS/Stylys"
-            },
-            {
-                "title": "BEM"
-            },
-            {
-                "title": "Storybook"
-            },
-            {
-                "title": "React"
-            },
-            {
-                "title": "Vue"
-            }, 
-            {
-                "title": "Pug"
-            },
-            {
-                "title": "Gulp"
-            }
-        ]
+    {
+      "title": "E-mail",
+      "url": "mailto:olga.polikashina@gmail.com",
+      "icon": "email.svg"
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/polikashina",
+      "icon": "github.svg"
     }
+  ],
+  "experience": {
+    "title": "Experience",
+    "projects": [
+      {
+        "project": "Modcloth",
+        "company": "PushOk Software",
+        "link": "https://www.modcloth.com/",
+        "position": "Frontend Developer",
+        "stack": "Backbone.js, Handlebars, Less, Grunt",
+        "description": "",
+        "dateFrom": "04/2014",
+        "dateTo": "10/2014"
+      },
+      {
+        "project": "PV Inova",
+        "company": "PushOk Software",
+        "position": "Full Stack Developer",
+        "stack": "Backbone.js, Handlebars, Less, Grunt, Node.js, MongoDB",
+        "description": "",
+        "dateFrom": "10/2014",
+        "dateTo": "09/2016"
+      },
+      {
+        "project": "NDA protected project",
+        "isNDA": true,
+        "company": "Amigoweb",
+        "position": "HTML/CSS Developer",
+        "stack": "Vue, Nuxt.js, Stylus",
+        "description": "",
+        "dateFrom": "04/2019",
+        "dateTo": "07/2019"
+      },
+      {
+        "project": "NDA protected project",
+        "isNDA": true,
+        "company": "Amigoweb",
+        "position": "HTML/CSS Developer",
+        "stack": "React, Styled components",
+        "description": "",
+        "dateFrom": "07/2019",
+        "dateTo": "09/2019"
+      },
+      {
+        "project": "NDA protected project",
+        "isNDA": true,
+        "company": "CSSSR",
+        "position": "HTML/CSS Developer",
+        "stack": "Vue, SCSS",
+        "description": "",
+        "dateFrom": "09/2019",
+        "dateTo": "10/2019"
+      },
+      {
+        "project": "NDA protected project",
+        "isNDA": true,
+        "company": "CSSSR",
+        "position": "HTML/CSS Developer",
+        "stack": "React, Storybook, SCSS",
+        "description": "",
+        "dateFrom": "10/2019",
+        "dateTo": "12/2019"
+      },
+      {
+        "project": "NDA protected project",
+        "isNDA": true,
+        "company": "CSSSR",
+        "position": "Frontend Developer",
+        "stack": "React, Redux, Storybook, SCSS, Jest",
+        "description": "",
+        "dateFrom": "12/2019",
+        "dateTo": "02/2020"
+      },
+      {
+        "project": "HTML, CSS, JS online course",
+        "company": "HTMLAcademy",
+        "position": "Tutor",
+        "dateFrom": "11/2018",
+        "dateTo": "current time"
+      },
+      {
+        "project": "NDA protected project",
+        "isNDA": true,
+        "company": "IT-swarm",
+        "position": "Frontend developer",
+        "dateFrom": "04/2020",
+        "dateTo": "current time"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "university": "Ryazan State Radio Engineering University",
+    "faculty": "Faculty of Computer Engineering",
+    "specialty": "Informatics Specialist and Economist",
+    "dateFrom": "2009",
+    "dateTo": "2014"
+  },
+  "skills": {
+    "title": "Skills",
+    "list": [
+      {
+        "title": "HTML"
+      },
+      {
+        "title": "CSS"
+      },
+      {
+        "title": "JavaScript"
+      },
+      {
+        "title": "React/Redux"
+      },
+      {
+        "title": "Jest/Puppeteer"
+      },
+      {
+        "title": "Storybook"
+      },
+      {
+        "title": "BEM"
+      },
+      {
+        "title": "Gulp/Pug"
+      },
+      {
+        "title": "SASS/SCSS/Stylus"
+      }
+    ]
+  }
 }

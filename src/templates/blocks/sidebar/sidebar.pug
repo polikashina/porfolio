@@ -1,8 +1,8 @@
 mixin sidebar({ description, socialLinks, navigation })
     section(class="sidebar")&attributes(attributes)
         div(class="sidebar__avatar")
-            img(src="./avatar.png", alt="Avatar" class="sidebar__avatar-image")
-        div(class="sidebar__text") 
+            img(src="./assets/avatar.png", alt="Avatar" class="sidebar__avatar-image")
+        div(class="sidebar__text")
             p(class="sidebar__description") #{description}
             ul(class="sidebar__social")
                 each item in socialLinks
