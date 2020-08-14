@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "gulp build",
-    "run": "npm run && node server"
+    "start": "npm run build && node server"
   },
   "author": "o.polikashina",
   "license": "ISC",
